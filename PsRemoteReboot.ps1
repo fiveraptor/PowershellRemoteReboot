@@ -6,7 +6,7 @@
 ###############################################
 
 # Importieren von der CSV Liste mit den Computernamen (FQDN)
-$computers = Import-Csv ".\PCs-test.csv" ";"
+$computers = Import-Csv ".\PCs.csv" ";"
 
 # Log Funktion
 function Write-Log {
